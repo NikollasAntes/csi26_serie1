@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1E90FF;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 0px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    background-color: #1E90FF;
+    border-radius: 5px;
+}
+
+/* Estilo de destaque quando o mouse está sobre os botões */
+.menu a:hover {
+    background-color: #87CEFA;
+}
+
+/* Estilo para a div que contém os ícones */
+.header-icons {
+    float: right; /* Alinhamento */
+    margin-top: -10px;
+    margin-right: 20px; /* Espaçamento da lateral */
+}
+
+/* Estilo para os ícones redondos */
+.icon {
+    display: inline-block;
+    width: 35px; /* Largura do ícone */
+    height: 35px; /* Altura do ícone */
+    background-color: #ffffff; /* Cor de fundo do ícone */
+    color: #1E90FF; /* Cor do texto do ícone */
+    text-align: center; /* Centralizar o conteúdo do ícone */
+    border-radius: 50%; /* Tornar o ícone redondo */
+    line-height: 35px; /* Centralizar verticalmente o conteúdo do ícone */
+    margin-left: 10px; /* Espaçamento à esquerda entre os ícones */
+    cursor: pointer; /* Mudar o cursor para indicar que os ícones são clicáveis */
+}
+
+/* Adicione hover para os ícones se desejar */
+.icon:hover {
+    background-color: #87CEFA; /* Cor de fundo quando hover */
+}
+
+.page-link {
+    color: #007bff;
+    text-decoration: none; /* Remover sublinhado padrão dos links */
+}
+
+/* Estilo para links visitados no corpo das páginas */
+.page-link:visited {
+    color: #007bff;
+}
+
+.page-link:hover {
+    color: #ff0000; /* Cor que os links terão quando o cursor estiver sobre eles */
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #1E90FF;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
